@@ -41,6 +41,12 @@ li#login a{
 	background-color: #DE4043;
 }
 
+h3.heading {
+	color: #5A5A5A;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -54,16 +60,24 @@ li#login a{
 img {
 	max-height: 100%;
 	max-width: 100%;
+	padding: 0;
 }
 
 div.text {
 	background-color: #F9F9F9;
-	padding: 18px;
+	padding: 20px;
 	padding-bottom: 40px;	
 }
 
+p.title {
+	font-size: 14pt;
+	color: #1F1F1F;
+	letter-spacing: 1px;
+}
+
 p {
-	color: #999999;
+	color: #999999;	
+	line-height: 1.5em;
 }
 
 a.read {
